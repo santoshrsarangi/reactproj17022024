@@ -1,19 +1,18 @@
 .square {
     border: 1px solid #000;
     background-color: white;
-    height: 29px;
-    width: 29px;
-    margin: 0px;
+    height: 34px;
+    width: 34px;
+    margin-top: -1px;
+    margin-left: -1px;
     padding: 0px;
     position: relative;
+    line-height: 34px;
+    float: left;
 }
 
-board-row {
-    border: 1px solid #000;
-    background-color: white;
-    height: 29px;
-    width: 29px;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
 }
