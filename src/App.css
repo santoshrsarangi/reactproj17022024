@@ -1,0 +1,19 @@
+.square {
+    border: 1px solid #000;
+    background-color: white;
+    height: 29px;
+    width: 29px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+board-row {
+    border: 1px solid #000;
+    background-color: white;
+    height: 29px;
+    width: 29px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
