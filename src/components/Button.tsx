@@ -1,15 +1,8 @@
-import { useState } from "react";
 
-function Button(props: { label: string }) {
-
-    const [btnValue, setBtnValue] = useState(' ')
-
-    function handleClick() {
-        setBtnValue('X')
-    }
+function Button({ label, handleClick }) {
 
     return (
-        <button className="square" onClick={handleClick}>{btnValue}</button>
+        <button className="square" onClick={handleClick}>{label}</button>
     );
 }
 

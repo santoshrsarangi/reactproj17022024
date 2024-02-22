@@ -1,3 +1,8 @@
+h1 {
+    margin-left: 10px !important;
+    margin-top: 15px !important;
+}
+
 .square {
     border: 1px solid #000;
     background-color: white;
@@ -11,7 +16,8 @@
     float: left;
 }
 
-.board-row:after {
+.board-row {
+    margin-left: 20px;
     clear: both;
     content: '';
     display: table;
