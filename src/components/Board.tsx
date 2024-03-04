@@ -71,8 +71,6 @@ function Board() {
             </div>
             <br></br>
             <div className="game-status">{gameStatus}</div>
-
-
         </>
     )
 }
